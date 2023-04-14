@@ -1,0 +1,30 @@
+.navbar{
+    top: 0;
+    width: 100%;
+    padding: 20px;
+    background-color: beige;
+    display: flex;
+}
+.navbar-menu{
+width: 100%;
+}
+.navbar-items{
+list-style: none;
+text-align: left;
+margin-top: 8px;
+}
+.navbar-item{
+    display: inline-block;
+    margin-left: 20px;
+}
+.navbar-login{
+    text-align: center;
+}
+.login-button{
+    white-space: nowrap;
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px solid rgb(224, 217, 208);
+    border-color: rgb(224, 217, 208);
+    background-color: rgb(224, 217, 208);
+}
