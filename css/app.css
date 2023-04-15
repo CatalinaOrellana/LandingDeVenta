@@ -1,6 +1,9 @@
 
 
 @import "components/navbar.css";
+@import "components/jumbotron.css";
+@import "components/blog.css";
+@import "components/adicionales.css";
 *{
    
     margin: 0;

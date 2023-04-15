@@ -8,23 +8,72 @@
     <link rel="stylesheet" href="/css/app.css" />
   </head>
   <body>
-    <header> 
-        <nav class="navbar">
-            <div class="navbar-menu">
-                <ul class="navbar-items"> 
-                    <li class="navbar-item">Inicio</li>
-                    <li class="navbar-item">Productos</li>
-                    <li class="navbar-item">Contacto</li>
-                </ul>
-            </div>
-            <div class="navbar-login"> 
-                <button type="button" class="login-button"> 
-                    Iniciar Sesión
-                </button>
-            </div>
-        </nav>
+    <!-- Navbar -->
+    <!-- Jumbotron -->
+    <header>
+      <nav class="navbar">
+        <div class="navbar-menu">
+          <ul class="navbar-items">
+            <li class="navbar-item">Inicio</li>
+            <li class="navbar-item">Productos</li>
+            <li class="navbar-item">Contacto</li>
+          </ul>
+        </div>
+        <div class="navbar-login">
+          <button type="button" class="login-button">Iniciar Sesión</button>
+        </div>
+      </nav>
+      <div class="jumbotron">
+        <div class="jumbotron-presentacion">
+          <p class="presentacion-titulo">¿Quienes somos?</p>
+          <p class="presentacion-cuerpo">Aqui va la presentacion</p>
+        </div>
+        <div class="jumbotron-imagen">
+          <img src="img/jumbotron_imagen.JPG" alt="galletas" />
+        </div>
+      </div>
     </header>
-    <main></main>
+    <!-- Blog -->
+    <!-- Adicionales -->
+    <main>
+      <div class="blog-container">
+        <p class="blog-titulo">Productos destacados</p>
+        <div class="blog-producto">
+          <div class="producto-imagen">
+            <img src="img/producto_imagen_chocochip.JPG" alt="" />
+          </div>
+          <p class="producto-titulo">Chocochips</p>
+        </div>
+        <div class="blog-producto">
+          <div class="producto-imagen">
+            <img src="img/producto_imagen_alfajor.JPG" alt="" />
+          </div>
+          <p class="producto-titulo">Alfajor</p>
+        </div>
+        <div class="blog-producto">
+          <div class="producto-imagen">
+            <img src="img/producto_imagen_coco.JPG" alt="" />
+          </div>
+          <p class="producto-titulo">CocoLimón</p>
+        </div>
+      </div>
+      <div class="adicional-container">
+        <div class="adicional-image">
+          <img src="img/adicional_imagen.JPG" alt="" />
+        </div>
+        <div class="adicional-oferta">
+          <p class="pre-titulo">TENEMOS ALGO PARA TI</p>
+          <p class="titulo">Mira nuestras ofertas</p>
+          <p class="cuerpo">
+            Solo por esta semana disfruta de nuestras ofertas en reposteria,
+            ¿Quieres saber más?
+          </p>
+          <div class="container-button">
+            <button class="oferta-button">Ver ofertas</button>
+          </div>
+        </div>
+      </div>
+    </main>
     <footer></footer>
   </body>
 </html>
