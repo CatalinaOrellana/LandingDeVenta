@@ -1,9 +1,12 @@
 .jumbotron{
+    background-color: #4f3320;
+    color:white;
+    font-family: Georgia;
     padding: 20px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
-    grid-column-gap: 0px;
+    grid-column-gap: 30px;
     grid-row-gap: 0px;
 }
 

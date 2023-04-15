@@ -1,0 +1,24 @@
+@media (min-width: 640px) { 
+    .blog-titulo {
+        font-size: 20px;
+    }
+ }
+
+
+@media (min-width: 768px) { 
+
+    .blog-titulo {
+        font-size: 25px;
+    }
+}
+
+@media (min-width: 1024px) { 
+
+    .blog-titulo {
+        font-size: 25px;
+    }
+    .producto-imagen img {
+          max-height: 319.73px;
+
+    }
+ }

@@ -7,9 +7,6 @@
     grid-row-gap: 0px;
 
 }
-.adicional-image{
-    width: 100%;
-}
 
 .adicional-image img{
     width: 100%;
@@ -19,7 +16,6 @@
 }
 
 .adicional-oferta{
-    width: 100%;
     padding: 20px;
     background-color: #c3b490;
     color:black;
