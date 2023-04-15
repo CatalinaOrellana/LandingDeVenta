@@ -1,0 +1,26 @@
+.blog-container {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 15px;
+  grid-row-gap: 0px;
+}
+.blog-titulo {
+  margin: 10px 0 10px 0;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 600;
+  grid-column: span 3 / span 3;
+}
+
+.producto-imagen img {
+  width: 100%;
+  max-height: 148.5px;
+  object-fit: cover;
+}
+
+.producto-titulo {
+    text-align: center;
+    margin-top: 10px;
+}

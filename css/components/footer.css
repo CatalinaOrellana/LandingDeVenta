@@ -1,0 +1,36 @@
+.footer {
+  background-color: beige;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 0px;
+  padding: 20px;
+}
+
+.footer-menu,
+.footer-terminos {
+  color: #292929;
+}
+
+.menu-titulo,
+.terminos-titulo {
+  font-weight: 600;
+}
+
+.menu-items,
+.terminos-items {
+  list-style: none;
+  text-align: left;
+  margin-top: 8px;
+}
+
+.footer-contactos {
+  text-align: center;
+}
+
+.footer-contactos i {
+  font-size: 20px;
+  margin-left: 10px;
+  cursor: pointer;
+}

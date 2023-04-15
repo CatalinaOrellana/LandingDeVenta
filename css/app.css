@@ -1,0 +1,17 @@
+
+
+@import "components/navbar.css";
+@import "components/jumbotron.css";
+@import "components/blog.css";
+@import "components/adicionales.css";
+@import "components/footer.css";
+@import "components/reponsive.css";
+
+*{
+   
+    margin: 0;
+    padding: 0;
+ }
+ body{
+    font-family: sans-serif;
+ }
